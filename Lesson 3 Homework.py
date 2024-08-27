@@ -11,7 +11,8 @@ def main():
     y = 1
     print(x * y == x and x // y == x)
     print(x < y or x == y)
-    print(not x + y == 68)
+    print(x is not y)
+    print(x is y)
     #5
     randList = [1, 6, 8, 9, 2]
     randName = "Batman"
